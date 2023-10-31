@@ -30,7 +30,7 @@ Anaconda and Python 3.8. After installing the Anaconda environment:
 ## Usage
 
 1. Configure your dataset and pre-trained model path in
-[mypath.py]().
+[mypath.py](mypath.py).
 
 2. Testing:
 
@@ -46,9 +46,16 @@ Anaconda and Python 3.8. After installing the Anaconda environment:
     ```
 
 ## Webapp
+```Shell
+python app.py
+```
+<div align="center">
+    <a href="./">
+        <img src="figure/Screenshot 2023-10-31 104012.png" width="30%"/>
+    </a>
+    <a href="./">
+        <img src="figure/mail_alert.png" width="30%"/>
+    </a>
+</div>
 
-Tell others how they can contribute to your project.
 
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
