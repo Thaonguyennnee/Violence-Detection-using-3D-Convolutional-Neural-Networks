@@ -8,7 +8,7 @@ Re-implement the C3D model for the custom dataset 2 layers described in the repo
 - [Installation](#installation)
 - [Usage](#usage)
 - [Webapp](#Webapp)
-- [License](#license)
+- [Future work](#Futurework)
 
 ## Installation
 Anaconda and Python 3.8. After installing the Anaconda environment:
@@ -46,16 +46,22 @@ Anaconda and Python 3.8. After installing the Anaconda environment:
     ```
 
 ## Webapp
+A basic web app with 2 functions detects from video and camera. If a fight is detected, there is a mail alert sent to the user.
 ```Shell
 python app.py
 ```
 <div align="center">
     <a href="./">
-        <img src="figure/Screenshot 2023-10-31 104012.png" width="30%"/>
+        <img src="figure/Screenshot 2023-10-31 104012.png" width="50%"/>
     </a>
     <a href="./">
-        <img src="figure/mail_alert.png" width="30%"/>
+        <img src="figure/mail_alert.png" width="39%"/>
     </a>
 </div>
 
-
+## Futurework
+The new pipeline preprocessing to pay attention to people who moving based on paper: [LOCALIZATION GUIDED FIGHT ACTION DETECTION IN SURVEILLANCE VIDEOS](https://weiyaolin.github.io/pdf/LocalizationGuided.pdf)
+```Shell
+python stream.py
+```
+![preprocessing](figure/new_preprocess.png)
