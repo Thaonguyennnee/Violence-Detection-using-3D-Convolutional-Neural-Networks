@@ -27,21 +27,23 @@ Anaconda and Python 3.8. After installing the Anaconda environment:
     pip install -r requirements.txt
     ```
 
+## Usage
 
-3. Configure your dataset and pretrained model path in
+1. Configure your dataset and pre-trained model path in
 [mypath.py]().
 
-4. Testing:
+2. Testing:
 
-    To train the model, please do:
+    To test the model, please do:
+    ```Shell
+    python inference.py
+    ```
+    
+3. Training:
+   To test the model, please do:
     ```Shell
     python train.py
     ```
-
-
-## Usage
-
-Provide instructions on how to use your project.
 
 ## Webapp
 
