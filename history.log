@@ -1,0 +1,13 @@
+Device being used: cuda:0
+Training C3D from scratch...
+Total params: 78.00M
+Training model on traindata dataset...
+Preprocessing of traindata dataset, this will take long, but it will be done only once.
+Preprocessing finished.
+Number of train videos: 3431
+Preprocessing of traindata dataset, this will take long, but it will be done only once.
+Preprocessing finished.
+Number of val videos: 859
+Preprocessing of traindata dataset, this will take long, but it will be done only once.
+Preprocessing finished.
+Number of test videos: 1074
