@@ -8,7 +8,7 @@ Re-implement the C3D model for the custom dataset 2 layers described in the repo
 - [Installation](#installation)
 - [Usage](#usage)
 - [Webapp](#Webapp)
-- [License](#license)
+- [Future Work](#FutureWork)
 
 ## Installation
 Anaconda and Python 3.8. After installing the Anaconda environment:
@@ -47,8 +47,12 @@ Anaconda and Python 3.8. After installing the Anaconda environment:
 
 ## Webapp
 
-Tell others how they can contribute to your project.
+![App demo](relative/path/to/your-image.png)
 
-## License
+    ```Shell
+    python app.py
+    ```
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+## FutureWork
+New flow preprocessing based on research: [Localization Guided Fight Action Detection in Surveillance Videos](https://weiyaolin.github.io/pdf/LocalizationGuided.pdf)
+
