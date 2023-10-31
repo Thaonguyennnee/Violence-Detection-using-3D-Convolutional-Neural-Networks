@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video</title>
+    <style>
+        body{
+            color:black;
+            margin:0px;
+            padding:0px;
+            text-align:center;
+        }
+        header.feature-box.top{
+        background-color:#7ec4cf;
+        height:70px;
+        margin:0px;
+        padding:20px;
+        text-align:center;
+        }
+        header.feature-box.second{
+        background-color:#f0f0f0;
+        height:50px;
+        text-align:center;
+        margin-top:-25px;
+        }
+        .features{
+          background-color:#f0f0f0;
+          width: 900px;
+          height: 700px;
+          border-radius: 35px;
+          object-fit: contain;
+          margin:20px;
+        }
+        section.col-sm{
+          background-color:#f0f0f0;
+          width: 1000px;
+          height: 650px;
+          border-radius: 35px;
+          object-fit: contain;
+          margin:40px;
+        }
+
+        img{
+          width: 900px;
+          height: 600px;
+          border-radius: 35px;
+          object-fit: contain;
+          margin:40px;
+        }
+
+        .new{
+        color:#f0f0f0;
+        margin:0px;
+        padding:10px;
+        background-color:#7ec4cf;
+        margin:0px;
+        /*margin-top:-10px;*/
+        }
+    </style>
+</head>
+<body>
+<header class="feature-box top">
+    <h1 style="text-align: center;"><strong>Fight Detection</strong></h1>
+</header>
+
+<header class="feature-box second">
+    <h1 style="text-align: center;"><strong>Output Video</strong></h1>
+</header>
+
+  <section class="col-sm " >
+          <img src="{{ url_for('video') }}"   alt="Upload video">
+
+  </section>
+<section>
+    <div class="new" >
+      <form method = 'POST' enctype="multipart/form-data" style="align-content: center; text-align: center;display: flex;">
+        {{form.hidden_tag()}}
+        {{form.file(class_="custom-file-input")}}
+
+        <div>
+        <button type="submit" name="favorite" value="x" class="btnCustom">
+            Submit
+        </button>
+      </div>
+      </form>
+    </div>
+
+  </div>
+    </section>
+
+</body>
+</html>
