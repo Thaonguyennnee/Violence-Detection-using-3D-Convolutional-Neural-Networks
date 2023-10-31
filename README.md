@@ -7,7 +7,7 @@ Re-implement the C3D model for the custom dataset 2 layers described in the repo
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Webapp](#Webapp)
 - [License](#license)
 
 ## Installation
@@ -29,10 +29,9 @@ Anaconda and Python 3.8. After installing the Anaconda environment:
 
 
 3. Configure your dataset and pretrained model path in
-[mypath.py](https://github.com/jfzhang95/pytorch-video-recognition/blob/master/mypath.py).
+[mypath.py]().
 
-4. You can choose different models and datasets in
-[train.py](https://github.com/jfzhang95/pytorch-video-recognition/blob/master/train.py).
+4. Testing:
 
     To train the model, please do:
     ```Shell
@@ -44,7 +43,7 @@ Anaconda and Python 3.8. After installing the Anaconda environment:
 
 Provide instructions on how to use your project.
 
-## Contributing
+## Webapp
 
 Tell others how they can contribute to your project.
 
